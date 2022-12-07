@@ -70,8 +70,8 @@ void Day7::solve() {
 
         bool computed = true;
 
-        // It kinda supposes that there is no directory, which was true at least for my
-        // input. Should be easy to replace it with a proper condition if
+        // It kinda supposes that there is no empty directory, which was true at least for my
+        // input. Should be easy to replace it with a proper condition if needed
 
         for(auto& d : currentDir->sub) {
             if(d->value == 0) {
